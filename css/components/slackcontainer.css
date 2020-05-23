@@ -1,5 +1,8 @@
 .slack-container {
-  height: 100vh;
+  margin-top: 16px;
+  border-radius: 8px;
+  height: 70vh;
+  background-color: white;
 }
 
 .slack-container h1 {

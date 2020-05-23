@@ -10,6 +10,14 @@
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/footer.css");
+@import url("components/badge.css");
+@import url("components/chat.css");
+@import url("components/message.css");
+@import url("components/sidebar.css");
+@import url("components/slackcontainer.css");
+
+/* Importing layouts */
+@import url("layouts/slack.css");
 
 /* Utilities */
 body {
