@@ -1,0 +1,30 @@
+.sidebar-small {
+  background-color: rgb(38, 28, 37);
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.sidebar-conversation {
+  background-color: rgb(75, 57, 73);
+  color: white;
+  padding: 16px;
+  width: 200px;
+}
+
+.sidebar-conversation h1 {
+    font-size: 24px;
+}
+
+.person, .channel {
+  display: flex;
+  align-items: center;
+}
+
+.person span, .channel span {
+    opacity: .5;
+}
+
+.channel.active span {
+  opacity: 1;
+}

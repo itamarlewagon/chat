@@ -1,0 +1,18 @@
+.badge-online {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(31, 229, 189);
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.badge-offline {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: .5;
+}

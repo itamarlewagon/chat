@@ -1,0 +1,35 @@
+.chat-container {
+  flex-grow: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header h1 {
+  font-size: 24px;
+}
+
+.chat-header {
+  border-bottom: 1px solid rgb(240,240,240);
+}
+
+.chat-section {
+  margin-top: 24px;
+}
+
+.chat-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-section-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.chat-conversations {
+  flex-grow: 1;
+  padding: 16px 0;
+  overflow: scroll;
+}
