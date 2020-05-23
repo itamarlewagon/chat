@@ -38,6 +38,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+.card-carousel {
+  align-items: center;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  flex-grow: 1;
+}
   
 .card-other {
   margin: auto;
@@ -59,7 +68,7 @@
   background-size: cover;
   height: 250px;
   width: 200px;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
   padding: 20px;
