@@ -1,0 +1,26 @@
+.slack-container {
+  margin-top: 16px;
+  border-radius: 8px;
+  height: 70vh;
+  background-color: white;
+}
+
+.slack-container h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.slack-container h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.slack-container h3 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.padded {
+  padding: 30px 0;
+}

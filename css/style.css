@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -9,10 +10,19 @@
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/footer.css");
+@import url("components/badge.css");
+@import url("components/chat.css");
+@import url("components/message.css");
+@import url("components/sidebar.css");
+@import url("components/slackcontainer.css");
+
+/* Importing layouts */
+@import url("layouts/slack.css");
 
 /* Utilities */
 body {
   display: block;
+  background-color: rgb(193, 237, 255);
   margin: 0;
   font-family: Open Sans;
 }
@@ -30,7 +40,16 @@ a {
 }
 
 /* Custom design below! */
+.container-top {
+  display: flex;
+  padding: 8px;
+  justify-content: space-evenly;
+}
+
 .container {
-  width: 900px;
   margin: auto;
+}
+
+.container h2 {
+  margin-top: 8px;
 }
